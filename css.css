@@ -121,6 +121,7 @@ body{
     padding: 5px;
     color: hotpink;
     text-decoration: none;
+    /* display: flex; */
 }
 .footlink1{
     float: right;
@@ -155,4 +156,17 @@ footer:hover{
     #primecalm{
         display: block;
     }
+}
+@media (max-width: 655px){
+    .footer{
+        height: 68px;
+    }
+    .footlink{
+        padding-top: 10px;
+        /* margin-top: 50px; */
+        float:left;
+        clear: right;
+        -ms-flex-item-align: start;
+    }
+    
 }
