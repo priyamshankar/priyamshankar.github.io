@@ -1,5 +1,7 @@
 body{
-    background-color: white
+    /* background-color: white; */
+    background-image: linear-gradient(#EAFAF1 , #F5EEF8);
+
 }
 header{
     background: url(https://source.unsplash.com/1600x900/?coding) no-repeat center center/cover;
@@ -192,11 +194,9 @@ h1{
 .form{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(#EAFAF1 , #F5EEF8);
+    background-image: linear-gradient(#d5f8e4 , #f0cdff);
     /* justify-content:center; */
     align-items:center;
-    
-    
     /* border: 2px solid black; */
     border-radius: 15%;
    padding: 5%;
@@ -223,16 +223,14 @@ h1{
     margin-top: 8rem;
 
 }
+
 .footer{
     background-color: black;
     color: hotpink;
-    height: 43px;
+    height: 20px;
     padding: 1%;
 }
-#foottxt{
-    /* margin: 5%; */
-    /* padding: 5px; */
-}
+
 .footlink{
     /* float: right; */
     padding: 5px;
