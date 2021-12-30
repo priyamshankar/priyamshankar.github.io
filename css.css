@@ -62,9 +62,10 @@ nav img{
     filter: opacity(50%);
     animation-delay: 3s;
     animation-play-state: running;
-    transition: ease-out; */
+    transition: ease-out; 
     
 }
+*/
 nav{
     margin-right: 2rem;
 }
